@@ -1,13 +1,12 @@
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import { HashRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { LoginPage, NotFoundPage, UserPage } from '../pages/public';
 import { PerfilPage, TaskPage, CreateTaskPage, EditTaskPage } from '../pages/private';
 import { PrivateLayout } from '../layouts/PrivateLayout';
 import { PublicRoute } from './PublicRouter';
 
-
 export const AppRouter = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
 
         {/* RUTAS PÚBLICAS */}
@@ -29,6 +28,6 @@ export const AppRouter = () => {
         <Route path="*" element={<NotFoundPage />} />
 
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
