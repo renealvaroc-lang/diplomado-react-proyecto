@@ -21,14 +21,33 @@ Aplicación web desarrollada en React + TypeScript para la gestión de tareas, c
 
 ## API Utilizada
 
-Backend:
+**Backend:**  
 https://taskdone-node.onrender.com
 
-Documentación:
+**Documentación:**  
 https://taskdone-node.onrender.com/api-docs
+
+## Credenciales de Prueba
+
+Para acceder y probar las funcionalidades de la aplicación, utilice los siguientes datos:
+
+| Campo | Valor |
+| :--- | :--- |
+| **Usuario** | achavez |
+| **Contraseña** | 12345678 |
 
 ## Instalación y ejecución local
 
 ```bash
 npm install
 npm run dev
+
+```
+## Despliegue
+
+La aplicación fue publicada mediante GitHub Pages.
+
+## Autor
+
+Rene Alvaro Chavez Ordoñez
+
